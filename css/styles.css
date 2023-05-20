@@ -544,6 +544,49 @@ button {
   background-color: #31d0aa;
 }
 
+.subscribe-form {
+  display: inline-block;
+  margin: 80px;
+  gap: 24px;
+}
+.form-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--background-cl);
+margin-bottom: 16px;
+}
+ .form-footer-text{
+  box-sizing: border-box;
+  position: absolute;
+ border-radius: 4px ;
+ border:1px solid #ffffff;
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15 ));
+ max-width: 264px;
+ height: 40px;
+ display: inline-flex;
+ align-items: center;
+ background-color: transparent;
+ margin-left: 80px;
+ color: var(--hero-cl);
+}
+
+.footer-text:focus {
+  outline: 1px solid var(--logo-cl);
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button {
+}
+.button-form-title {
+}
+.icon-form-footer {
+}
+
 /**
   |============================
   | Portfolio site
@@ -726,13 +769,12 @@ button {
   fill: #ffffff;
 }
 
-
 .modal-title {
   display: flex;
   justify-content: center;
   padding: 0 0 16px;
 }
-.form-list{
+.form-list {
   padding-bottom: 16px;
 }
 
@@ -746,44 +788,52 @@ button {
 .lab-name,
 .lab-tel,
 .lab-email,
-.lab-text, 
+.lab-text,
 .lab-inp-privacy {
   position: relative;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0,04em;
-  color: #8E8F99;
+  letter-spacing: 0, 04em;
+  color: #8e8f99;
 }
 
 .lab-inp-name,
 .lab-inp-tel,
-.lab-inp-email{
+.lab-inp-email {
   height: 40px;
 }
 
 .svg-person,
 .svg-phone,
-.svg-email{
+.svg-email {
+  display: flex;
   position: absolute;
+  left: 4.44%;
+  right: 90.56%;
+  top: 44.83%;
+  bottom: 13.79%;
 }
 
-.lab-inp-text{
+.svg-phone,
+.svg-email{
+  fill: var(--link-cl);
+}
+
+.lab-inp-text {
   height: 120px;
   padding: 0 16px;
 }
 
 .form-agreement-link {
-color: var(--logo-cl);
+  color: var(--logo-cl);
 }
 
-.modal-knock-sub{
+.modal-knock-sub {
   display: block;
   margin: 0 auto;
   width: 169px;
-height: 56px;
-background-color: var(--logo-cl);
-}
-
-.submit-btn{
+  height: 56px;
+  background: var(--logo-cl);
   color: var(--background-cl);
 }
+
