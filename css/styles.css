@@ -725,3 +725,65 @@ button {
 .modal:focus {
   fill: #ffffff;
 }
+
+
+.modal-title {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 16px;
+}
+.form-list{
+  padding-bottom: 16px;
+}
+
+.lab-inp {
+  width: 100%;
+  padding-left: 38px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
+.lab-name,
+.lab-tel,
+.lab-email,
+.lab-text, 
+.lab-inp-privacy {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0,04em;
+  color: #8E8F99;
+}
+
+.lab-inp-name,
+.lab-inp-tel,
+.lab-inp-email{
+  height: 40px;
+}
+
+.svg-person,
+.svg-phone,
+.svg-email{
+  position: absolute;
+}
+
+.lab-inp-text{
+  height: 120px;
+  padding: 0 16px;
+}
+
+.form-agreement-link {
+color: var(--logo-cl);
+}
+
+.modal-knock-sub{
+  display: block;
+  margin: 0 auto;
+  width: 169px;
+height: 56px;
+background-color: var(--logo-cl);
+}
+
+.submit-btn{
+  color: var(--background-cl);
+}

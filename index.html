@@ -457,49 +457,55 @@
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
-        <strong class="modal-title">Leave your contacts and we will call you back</strong>
-
         <form class="modal-form form" name="modal_form">
-          <label class="form-label" for="modal_name">Name</label>
-          <div class="form-wrapper">
-            <input class="form-field" type="text" name="modal_name" id="modal_name" />
-            <svg class="form-icon" width="20" height="20">
-              <use href="./images/icons.svg#name"></use>
-            </svg>
-          </div>
-          <label class="form-label" for="modal_phone">Phone</label>
-          <div class="form-wrapper">
-            <input class="form-field" type="text" name="modal_phone" id="modal_phone" />
-            <svg class="form-icon" width="20" height="20">
-              <use href="./images/icons.svg#phone"></use>
-            </svg>
-          </div>
-          <label class="form-label" for="modal_email">Email</label>
-          <div class="form-wrapper">
-            <input class="form-field" type="text" name="modal_email" id="modal_email" />
-            <svg class="form-icon" width="20" height="20">
-              <use href="./images/icons.svg#email"></use>
-            </svg>
-          </div>
-
-          <label class="form-label" for="modal_comment">Comment</label>
-          <textarea
-            class="form-comment"
-            name="modal_comment"
-            id="modal_comment"
-            rows="6"
-            placeholder="Text input"
-          ></textarea>
-
-          <label class="form-agreement">
-            <input class="form-check-input" type="checkbox" name="modal_agreement" />
-            <span class="form-agreement-text"
+          <strong class="modal-title">Leave your contacts and we will call you back</strong>
+          <ul class="form-list list">
+            <li class="form list element">
+              <label class="lab-name" autofocus>Name
+                <input class="lab-inp-name lab-inp" type="name"name="name">
+                <svg class="svg-person" width="18" height="24">
+                  <use href="./images/icons.svg#name"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="form-list element">
+              <label class="lab-tel" autofocus>Phone
+                <input class="lab-inp-tel lab-inp" type="name"name="name">
+                <svg class="svg-phone" width="18" height="24">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="form-list element">
+              <label class="lab-email" autofocus>Email
+                <input class="lab-inp-email lab-inp" type="name"name="name">
+                <svg class="svg-email" width="18" height="24">
+                  <use href="./images/icons.svg#email"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="">
+              <label class="lab-text">
+                Comment
+                <input 
+                class="lab-inp-text lab-inp" 
+                type="text"
+                name="Comment"
+                placeholder="Text-input"
+                >
+              </label>
+            </li>
+          </ul>
+          <!--  -->
+          <label>
+            <input class="lab-inp-privacy" type="checkbox">
+            <span class="span">
               >I accept the terms and conditions of the
               <a class="form-agreement-link" href="">Privacy Policy</a></span
             >
+            </span>
+            <button class="modal-knock-sub" type="submit">Send</button>
           </label>
-
-          <button class="form-btn btn" type="submit">Send</button>
         </form>
       </div>
     </div>
