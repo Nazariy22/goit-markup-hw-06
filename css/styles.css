@@ -894,6 +894,10 @@ height: 138px;
   bottom: 13.79%;
 }
 
+.svg-person{
+ fill: var(--logo-cl);
+}
+
 .svg-phone,
 .svg-email {
   fill: var(--link-cl);
